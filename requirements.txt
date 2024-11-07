@@ -1,1 +1,9 @@
 streamlit
+openai
+streamlit-authenticator
+google-auth
+streamlit-oauth 
+google-auth 
+google-auth-oauthlib 
+google-auth-httplib2
+google-api-python-client
