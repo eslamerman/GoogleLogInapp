@@ -14,7 +14,7 @@ def get_config():
                 "auth_uri": "https://accounts.google.com/o/oauth2/auth",
                 "token_uri": "https://oauth2.googleapis.com/token",
                 "redirect_uris": [st.secrets.get("redirect_url", "https://demolog.streamlit.app")],
-                "javascript_origins": [st.secrets.get("redirect_url", "https://demolog.streamlit.app/")]
+                "javascript_origins": [st.secrets.get("redirect_url", "https://demolog.streamlit.app")]
             }
         }
     except KeyError:
