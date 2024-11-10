@@ -65,6 +65,7 @@ if uploaded_video:
             temp_video_path = temp_video_file.name
         
         # Upload the video file to S3
+        bucket-name="erman-demo-1"
         upload_status = upload_to_s3(uploaded_video, "your-bucket-name", "uploaded-video.mp4")
         st.success(upload_status)
 
